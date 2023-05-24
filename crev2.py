@@ -3,6 +3,7 @@ import os
 import concurrent.futures
 import sys
 import json
+import urllib3
 
 print('''
   ________           ___ 
@@ -13,6 +14,7 @@ print('''
 print("CRev2 - Reverse IP to Domain")
 print("Github: IM-Hanzou\n")
 
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 url = "https://api.webscan.cc/?action=query&ip="
 file_input = input("List IPs: ")
 file_result = input("Result filename: ")
