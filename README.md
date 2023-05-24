@@ -3,7 +3,7 @@
 # How To
 Please use Python3
 ```
-pip install requests futures
+pip install requests futures urllib3
 ```
 Then
 ```
