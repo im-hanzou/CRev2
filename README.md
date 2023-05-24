@@ -1,2 +1,12 @@
-# CRev2
-[Python] CReverse IP (2). Tools for find hosted domains from IPs
+# CReverse IP [2]
+[Python] CReverse IP. Tools for find hosted domains from IPs use futures.
+# How To
+Please use Python3
+```
+pip install requests futures
+```
+Then
+```
+python crev2.py
+```
+# Coded By L.
